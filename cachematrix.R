@@ -48,7 +48,7 @@ cacheSolve <- function(x, ...) {
   if(!is.null(invFunc)) {     ## Check to see if 'invFunc' is null
     
     ## if not NULL then print message & invFunc value
-    message("getting cached data.")
+    message("retrieve the cache:")
     return(invFunc)
   }
   
